@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roxana.tripit.MapsMainActivity">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="366dp"
+        android:layout_height="379dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="84dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="71dp"
+        android:onClick="modifyName"
+        android:text="edit"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listView"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/index"
+        android:layout_width="61dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="index"
+        android:inputType="number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listView" />
+
+    <EditText
+        android:id="@+id/nume"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="insert name"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toRightOf="@+id/index"
+        app:layout_constraintTop_toBottomOf="@+id/listView" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="95dp"
+        android:layout_height="38dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginTop="71dp"
+        android:onClick="delete"
+        android:text="Delete"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listView" />
+
+</android.support.constraint.ConstraintLayout>

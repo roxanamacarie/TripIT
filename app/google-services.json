@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "575254292636",
+    "firebase_url": "https://tripit-d0b6d.firebaseio.com",
+    "project_id": "tripit-d0b6d",
+    "storage_bucket": "tripit-d0b6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575254292636:android:56c17e1ec1cb6f70",
+        "android_client_info": {
+          "package_name": "com.example.roxana.tripit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575254292636-kggb5a0vivkmbirv2fdc3e2kfoe6ufu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8QymbcXwjNrzrik-LcLYtRAs8QYJSjh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
